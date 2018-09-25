@@ -1,10 +1,12 @@
 baseURL = "https://docs.wp2static.com/"
-languageCode = "en-us"
 title = "WP Static Site Generator"
 theme = "learn"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir= true
 
 [params]
-  editURL = "https://github.com/leonstafford/docswp2static/edit/master/content/"
+  editURL = "https://github.com/leonstafford/wp-static-site-generator-documentation/edit/master/content/"
   description = "Documentation for WP Static Site Generator"
   author = "Leon Stafford"
   showVisitedLinks = true
@@ -13,3 +15,15 @@ theme = "learn"
 
 [outputs]
   home = [ "HTML", "RSS", "JSON"]
+
+
+[Languages]
+[Languages.en]
+title = "Documentation for WP Static Site Generator"
+weight = 1
+languageName = "English"
+
+[Languages.fr]
+title = "Documentation du WP Static Site Generator"
+weight = 2
+languageName = "Français"
