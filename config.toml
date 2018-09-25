@@ -1,4 +1,4 @@
-baseURL = "https://docs.wp2static.com/"
+baseURL = "https://wp-static-site-generator-documentation.netlify.com/"
 title = "WP Static Site Generator"
 theme = "learn"
 languageCode = "en-us"
