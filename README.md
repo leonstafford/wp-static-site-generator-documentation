@@ -62,3 +62,11 @@ The pages you see in the site's sidebar follow this structure, ie:
     └── ... etc
 
 ```
+
+## Style and other customisations 
+
+The theme used is the [Learn theme](https://themes.gohugo.io//theme/hugo-theme-learn/en/basics/). Appropriate documentation can be found on that site, but the main thing is that we don't modify the Learn theme's files under `./themes/learn/`, but buy overriding these, usually in the `./layouts/partials/` directory.
+
+## Getting help
+
+Join the [support and development community](https://wp2static.com) on Slack, for any questions, discussions about the actual product or it's documentation.
