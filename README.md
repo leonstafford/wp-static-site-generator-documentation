@@ -25,3 +25,40 @@ If you're making a lot of contributions to the documentation, we'll add you as a
 
 The local development server should then be viewable at [http://localhost:1313](http://localhost:1313/) 
 
+## Site structure
+
+The site's content primarily lives in the `./content/` directory. 
+
+The pages you see in the site's sidebar follow this structure, ie:
+
+```
+├── basics
+│   ├── configuration
+│   ├── _index.en.md
+│   ├── _index.fr.md
+│   ├── installation
+│   ├── style-customization
+│   └── what-is-static
+├── cont
+│   └── markdown.en.md
+├── getting-started
+│   ├── configuration
+│   ├── _index.en.md
+│   ├── _index.fr.md
+│   ├── installation
+│   ├── requirements
+│   └── style-customization
+├── _index.en.md
+├── posts
+│   └── getting-started.md
+└── shortcodes
+    ├── _index.en.md
+    ├── _index.fr.md
+    ├── mermaid.en.md
+    ├── mermaid.fr.md
+    ├── notice.en.md
+    ├── notice.fr.md
+    ├── siteparam.en.md
+    └── ... etc
+
+```
