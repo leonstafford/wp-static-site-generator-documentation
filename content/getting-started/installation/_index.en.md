@@ -3,6 +3,8 @@ title: Installation
 weight: 15
 ---
 
+Great! You’ve made the choice to protect and speed up your WordPress site by going static. Now, let’s walkthrough the installation process.
+
 Installing the plugin is done just like any other WordPress plugin. If you've done that before, this should be the usual process. If this is your first time, or it's been a while, no worries, we're going to walkthrough the whole process.
 
 There are a few ways you can install this plugin:
