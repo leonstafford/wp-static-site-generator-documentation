@@ -1,7 +1,14 @@
 ---
-date: 2016-04-09T16:50:16+02:00
 title: Deploying
 pre: "<b>3. </b>"
 weight: 15
 ---
 
+Deploying is the part of the process which takes place once your site has been "exported".
+
+
+{{<mermaid align="left">}}
+graph LR;
+	A[Crawl site] --> B(Process archive)
+    B --> C(Deploy static representation of your site)
+{{< /mermaid >}}
