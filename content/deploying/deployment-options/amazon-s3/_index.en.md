@@ -13,7 +13,7 @@ disableToc: true
 
 ### Costs
 
-From [$0.023/GB](https://aws.amazon.com/s3/pricing/)
+From [$0.023/GB](https://aws.amazon.com/s3/pricing/) or you may be eligible for use it for free, within their [Free Tier](https://aws.amazon.com/free/)
 
 ### Official static web hosting guide
 
