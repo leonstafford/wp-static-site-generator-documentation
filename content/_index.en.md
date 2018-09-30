@@ -8,7 +8,7 @@ title: "WP Static Site Generator"
 
 New to the plugin? Visit the [homepage](https://wp2static.com) to see what it's all about.
 
-## Using this documentation
+### Using this documentation
 
 This documentation is designed to help arm you with all the knowledge you need to confidently export your WordPress site as a static website and deploy it to production.
 
