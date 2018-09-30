@@ -26,7 +26,8 @@ graph TD
     activation[Activation] --> optingin[Opting in]
     updating[Updating] --> optingin[Opting in] 
     optingin[fa:fa-check Opting in] --> viewsettings[View settings]
-    viewsettings[View settings] --> startexport[ifa:fa-play-circle Start export]
+    viewsettings[View settings] --> startexport[fa:fa-play-circle Start export]
+    startexport[Start export] --> checksite[Check site]
     viewsettings[View settings] --> savesettings[fa:fa-save Save settings]
     viewsettings[View settings] --> resettodefaults[fa:fa-reset Reset to default settings]
     viewsettings[View settings] --> choosedeployoption[Choose deployment option]
@@ -40,3 +41,4 @@ graph TD
     click downloading "/en/troubleshooting/downloading/"
 {{< /mermaid >}}
 
+Still unable to locate the issue? Join our [support community](https://wp2static.com/community/) for more assistance.
