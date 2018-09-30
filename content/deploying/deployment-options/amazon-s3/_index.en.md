@@ -34,8 +34,8 @@ From [$0.023/GB](https://aws.amazon.com/s3/pricing/) or you may be eligible for 
  - manually deploy the generated files and folders to your S3 bucket
 
 
-{{% notice note %}}
-TIP: For easier deployments via the ZIP (or even the "Test deploy" method), consider using an S3 backed filesystem to automatically sync a directory to an S3 bucket!
+{{% notice tip %}}
+For easier deployments via the ZIP (or even the "Test deploy" method), consider using an S3 backed filesystem to automatically sync a directory to an S3 bucket!
 {{% /notice %}}
 
 #### Auto deploy with the Pro version 
@@ -49,8 +49,8 @@ TIP: For easier deployments via the ZIP (or even the "Test deploy" method), cons
  - hit the **Start static export** button to trigger the automated deployment
 
 
-{{% notice note %}}
-TIP: If it's your first time deploying to S3, it may help to do a quick test by manually uploading an index.html file to your S3 bucket's root and ensuring you can access it at your intended domain. If hat works, then you should be ready to deploy your whole WP site there
+{{% notice tip %}}
+If it's your first time deploying to S3, it may help to do a quick test by manually uploading an index.html file to your S3 bucket's root and ensuring you can access it at your intended domain. If hat works, then you should be ready to deploy your whole WP site there
 {{% /notice %}}
 
 ### S3 configuration options explained
@@ -90,6 +90,6 @@ In case you want to put your site in a sub directory of a bucket, this will depl
 
 If using CloudFront in your S3 static website setup, enter the CloudFront Distribution ID here and it will create an invalidation request for all files at the end of the deployment process. The invalidation usually happens within a few minutes. You can check any pending invalidations in your [AWS Console's CloudFront page](https://console.aws.amazon.com/cloudfront/home). You AWS user will need to have the CloudFrontFullAccess permissions or a more controlled policy, that includes the ability to send CloudFront invalidation requests.
 
-{{% notice note %}}
-TIP: Did you know, you don't need to save any of your credentials within the plugin if you are exporting via the UI (vs CRON/CLI). Just enter your credentials on the settings page and hit *Start static site export*. If you navigate away from the page, your credentials will not persist. You can also hit the *Reset to default settings* button to clear any settings you've saved for the plugin from your WordPress database.
+{{% notice tip %}}
+Did you know, you don't need to save any of your credentials within the plugin if you are exporting via the UI (vs CRON/CLI). Just enter your credentials on the settings page and hit *Start static site export*. If you navigate away from the page, your credentials will not persist. You can also hit the *Reset to default settings* button to clear any settings you've saved for the plugin from your WordPress database.
 {{% /notice %}}

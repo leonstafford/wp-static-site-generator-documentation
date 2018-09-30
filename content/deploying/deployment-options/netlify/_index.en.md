@@ -34,8 +34,8 @@ Free and [paid plans](https://www.netlify.com/pricing/)
  - drag and drop your ZIP file into the Netlify UI to deploy
 
 
-{{% notice note %}}
-TIP: For easier deployments via the ZIP (or even the "Test deploy" method), consider setting up a Git repository on GitHub, GitLab, BitBucket or any others supported by Netlify. Then when you push changes to the repo, Netify will automatically build it for you!
+{{% notice tip %}}
+For easier deployments via the ZIP (or even the "Test deploy" method), consider setting up a Git repository on GitHub, GitLab, BitBucket or any others supported by Netlify. Then when you push changes to the repo, Netify will automatically build it for you!
 {{% /notice %}}
 
 #### Auto deploy with the Pro version 
@@ -49,8 +49,8 @@ TIP: For easier deployments via the ZIP (or even the "Test deploy" method), cons
  - hit the **Start static export** button to trigger the automated deployment
 
 
-{{% notice note %}}
-TIP: If it's your first time deploying to Netlify, you can just take your ZIP file and drag it onto the UI at Netlify to create your Netlify site, then configure any settings within Netlify. This will work best if you've chosen to export with relative links set, so that the site's URLs will work wherever deployed.
+{{% notice tip %}}
+If it's your first time deploying to Netlify, you can just take your ZIP file and drag it onto the UI at Netlify to create your Netlify site, then configure any settings within Netlify. This will work best if you've chosen to export with relative links set, so that the site's URLs will work wherever deployed.
 {{% /notice %}}
 
 ### Netlify configuration options explained
@@ -73,6 +73,6 @@ This will be what's shown in a few places within the Netlify UI for your site, a
 
 
 
-{{% notice note %}}
-TIP: Did you know, you don't need to save any of your credentials within the plugin if you are exporting via the UI (vs CRON/CLI). Just enter your credentials on the settings page and hit *Start static site export*. If you navigate away from the page, your credentials will not persist. You can also hit the *Reset to default settings* button to clear any settings you've saved for the plugin from your WordPress database.
+{{% notice tip %}}
+Did you know, you don't need to save any of your credentials within the plugin if you are exporting via the UI (vs CRON/CLI). Just enter your credentials on the settings page and hit *Start static site export*. If you navigate away from the page, your credentials will not persist. You can also hit the *Reset to default settings* button to clear any settings you've saved for the plugin from your WordPress database.
 {{% /notice %}}
