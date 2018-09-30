@@ -9,5 +9,5 @@ Anywhere you can host a regular WordPress website can be used for hosting a stat
 Once you are considering to go static, though, you have such a great many more options of hosting to choose from, that we'd like to give a bit of guidance here, in helping you find the best suited to your needs/style.
 
 
-
+{{%children style="h2" description="true" %}}
 

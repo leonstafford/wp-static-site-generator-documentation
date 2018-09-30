@@ -1,13 +1,12 @@
 ---
 title: Netlify
 weight: 20
+description: FREE, Custom domain support, The specialists in static website hosting
 disableToc: true
 ---
 
 ### Pros
 
-
- - Auto-deploy with WP Static HTML Output
  - FREE
  - Custom domain support
  - The specialists in static website hosting

@@ -1,6 +1,7 @@
 ---
 title: Amazon S3
 weight: 10
+description: Low-cost, Free tier available, Custom domain support, Easy integration with CloudFront for improved performance
 disableToc: true
 ---
 
