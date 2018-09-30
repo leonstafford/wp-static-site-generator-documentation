@@ -69,4 +69,26 @@ For an S3 hosted website, you have a few options which will influence what you p
 
 Your S3 user will need permissions to put objects into the bucket. Check that the user whose Key you are using has the correct permissions for S3. You may attach the 'AmazonS3FullAccess' to the user or give more fine grained permissions control via [AWS's IAM](https://aws.amazon.com/iam/).
 
+**Secret Access Key**
 
+The other half of the authentication. Combined with the Access Key ID, this allows the plugin to authenticate with AWS when making requests.
+
+**Region**
+
+This must be set to the same region that your S3 bucket was created in. 
+
+**Bucket**
+
+Your bucket name as it appears in your [AWS Console for S3](https://s3.console.aws.amazon.com/s3/home).
+
+**Subdirectory**
+
+In case you want to put your site in a sub directory of a bucket, this will deploy all the static website files into the folder name you specify here.
+
+**CloudFront Cache Invalidation**
+
+If using CloudFront in your S3 static website setup, enter the CloudFront Distribution ID here and it will create an invalidation request for all files at the end of the deployment process. The invalidation usually happens within a few minutes. You can check any pending invalidations in your [AWS Console's CloudFront page](https://console.aws.amazon.com/cloudfront/home). You AWS user will need to have the CloudFrontFullAccess permissions or a more controlled policy, that includes the ability to send CloudFront invalidation requests.
+
+{{% notice note %}}
+TIP: Did you know, you don't need to save any of your credentials within the plugin if you are exporting via the UI (vs CRON/CLI). Just enter your credentials on the settings page and hit *Start static site export*. If you navigate away from the page, your credentials will not persist. You can also hit the *Reset to default settings* button to clear any settings you've saved for the plugin from your WordPress database.
+{{% /notice %}}
