@@ -62,10 +62,21 @@ If it's your first time deploying to GitHub Pages, you'll need to ensure you're 
 Set this to the final domain your users will visit your site on. If you're just getting started you can set it to your GitHub Pages user/org's URL, ie https://mygitubuser.github.io
 
 
-_More option usage being written now and expected up within the day_
+**Personal Access Token**
 
-_Need more help in the meantime, join our [Support Community](https://wp2static.com/community/)_
+You can find these within your GitHub account on the [Personal access token](https://github.com/settings/tokens/) page.
 
+**Account & Repository Name**
+
+Concatenate your GitHub user or organization name and your repository name, using a forward slash, ie _leonstafford/wordpress-static-html-plugin_.
+
+**Branch**
+
+This will usually be the `master` or `gh-pages` branch, depending on what type of repository you are pushing your site to. [Which do I need?](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/)
+
+**Subdirectory**
+
+In certain configurations, you may choose to keep your static files within the `/docs` subdirectory within your repository. In this case, simply enter `docs` here. In all other cases, you may leave this field empty.
 
 
 {{% notice tip %}}
