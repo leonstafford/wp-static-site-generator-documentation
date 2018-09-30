@@ -44,7 +44,7 @@ For easier deployments via the ZIP/test deploy method, consider linking the late
 
  - select the GitHub Pages deployment method within the plugin's settings
 
-![GitHub Pages deployment option](github_pages_deployment_method.png)
+![GitHub Pages deployment option](/images/ui/github_pages_deployment_method.png)
 
  - configure your [GitHub Pages related deployment options](#github-pages-configuration-options-explained)
  - optionally set any other [configuration](/configuration) options for the crawling, processing or deployment phases 
