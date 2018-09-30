@@ -9,6 +9,6 @@ Deploying is the part of the process which takes place once your site has been "
 
 {{<mermaid align="left">}}
 graph LR;
-	A[Crawl site] --> B(Process archive)
-    B --> C(Deploy static representation of your site)
+	A[Crawl site] -->|exported archive| B(Process archive)
+    B -->|processed archive| C(Deploy static representation of your site)
 {{< /mermaid >}}
