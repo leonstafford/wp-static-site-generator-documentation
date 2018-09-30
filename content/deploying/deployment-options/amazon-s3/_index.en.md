@@ -65,6 +65,8 @@ For an S3 hosted website, you have a few options which will influence what you p
 
  - _S3 hosted website cached with CloudFront_ If you've setup CloudFront to speed up your S3 hosted static site, then entering your CloudFront Distribution ID here will send a cache invalidation request after all the files have been deployed to S3. It will use the same AWS credentials as S3, so ensure that IAM user in AWS has the correct permissions for both S3 and CloudFront. You could set the BaseURL to the CloudFront address, ie http://d3fvx8eaa0pipc.cloudfront.net/, but more than likely, you have another domain you want to use for the website, so set the Base Url to that, ie https://mywebsite.com.
 
+**Access Key ID**
 
+Your S3 user will need permissions to put objects into the bucket. Check that the user whose Key you are using has the correct permissions for S3. You may attach the 'AmazonS3FullAccess' to the user or give more fine grained permissions control via [AWS's IAM](https://aws.amazon.com/iam/).
 
 
