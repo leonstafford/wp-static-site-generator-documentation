@@ -37,7 +37,7 @@ Now, you're starting to see in our analogy, how a static site can serve requests
 
 **By what magic does a static website do this?**
 
-A static website is a collection of individual static webpages, each one self-contained and having no knowledge of it's relationship the rest of the site, besides "links", those things you click on to navigate a "website". Each page is thus completely standalone. It may include images and fonts, but it doesn't exert any effort to find them, it simply has a hard-coded reference. If the image exists in the location declared, you'll see it. 
+A static website is a collection of individual static webpages, each one self-contained and having no knowledge of it's relationship to the rest of the site, besides "links", those things you click on to navigate a "website". Each page is thus completely standalone. It may include images and fonts, but it doesn't exert any effort to find them, it simply has a hard-coded reference. If the image exists in the location declared, you'll see it. 
 
 In order to get these nice, self-contained, static pages, someone needs to create them. This was easy when the internet was conceived - it was the only way! Want 5 pages in your website? Open up a text editor and hand-code all the HTML tags (the special language that describes a webpage). Things got easier, with software that would automatically update links when you renamed a page and allow you to work in a WYSIWYG mode, not needing to know any of the HTML syntax. At this point, the resulting output was still a static website. 
 
