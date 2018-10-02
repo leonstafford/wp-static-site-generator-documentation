@@ -39,6 +39,7 @@ graph TD
     choosedeployoption[Choose deployment option] --> bunnycdn[BunnyCDN]
     choosedeployoption[Choose deployment option] --> dropbox[Dropbox]
     click downloading "/en/troubleshooting/downloading/"
+    click checksite "/en/troubleshooting/start-export/check-site/"
 {{< /mermaid >}}
 
 Still unable to locate the issue? Join our [support community](https://wp2static.com/community/) for more assistance.
