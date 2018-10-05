@@ -24,6 +24,11 @@ just pasting a bit of code into your page, like you did before with
 shortcodes, but this time, you don't need to install and activate a
 plugin and ensure it's up to date.
 
+A WordPress contact form plugin designed for static sites
+------------------------------------------------------------------
+
+[WP Serverless forms](https://wordpress.org/plugins/wp-serverless-forms/) is designed by [Shifter](https://www.getshifter.io/) and generously kept open source and available to all. Shifter are one of the providers of a new hybrid model of WordPress hosting, where you host your WP site them and they take care of all the conversion to static/serving of static content for you.
+
 3rd party form / form submission providers for your static website
 ------------------------------------------------------------------
 
