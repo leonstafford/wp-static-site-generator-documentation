@@ -41,6 +41,7 @@ graph TD
     click downloading "/en/troubleshooting/downloading/"
     click checksite "/en/troubleshooting/start-export/check-site/"
     click ftp "/en/troubleshooting/view-settings/choose-deployment-option/ftp/"
+    click activation "/en/troubleshooting/activation/"
 {{< /mermaid >}}
 
 Still unable to locate the issue? Join our [support community](https://wp2static.com/community/) for more assistance.
