@@ -1,3 +1,9 @@
 #logo img {
   width: 50px;
 }
+
+.node:hover rect {
+
+    fill: #ff8080 !important;
+
+}
