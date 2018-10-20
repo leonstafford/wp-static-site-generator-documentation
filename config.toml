@@ -24,7 +24,7 @@ title = "Documentation for WP Static Site Generator"
 weight = 1
 languageName = "English"
 
-#[Languages.fr]
-#title = "Documentation du WP Static Site Generator"
-#weight = 2
-#languageName = "Français"
+[Languages.fr]
+title = "Documentation du WP Static Site Generator"
+weight = 2
+languageName = "Français"
