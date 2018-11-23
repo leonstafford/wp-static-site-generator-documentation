@@ -36,7 +36,7 @@ BunnyCDN also provides an FTP method to connect and upload your files, if that i
 
  - select the BunnyCDN deployment method within the plugin's settings
 
-![BunnyCDN deployment option](/images/ui/bunnycdn_deployment_option.png)
+![BunnyCDN deployment option](/images/ui/bunncdn_deploy_option.png)
 
  - configure your [BunnyCDN related deployment options](#bunnycdn-configuration-options-explained)
  - optionally set any other [configuration](/configuration) options for the crawling, processing or deployment phases 
