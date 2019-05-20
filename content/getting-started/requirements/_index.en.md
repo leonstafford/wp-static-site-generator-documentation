@@ -51,6 +51,7 @@ Whilst the plugin may activate on PHP versions less than 5.4, we'd recommend you
 ### PHP Extensions
 
  - cURL
+ - DOM
  - ZIP
 
 ### PHP XML Support
