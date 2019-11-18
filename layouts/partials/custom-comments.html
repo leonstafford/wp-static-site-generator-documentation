@@ -1,0 +1,12 @@
+{{ if and (not .IsHome) (ne .RelPermalink "/en/basics/") (ne .RelPermalink "/en/getting-started/") (ne .RelPermalink "/en/configuration/")  (ne .RelPermalink "/en/deploying/") (ne .RelPermalink "/en/developer-documentation/") }}
+
+<script>talkyardServerUrl='{{ .Site.Params.talkyardServerUrl }}';</script>
+<script async defer src="{{ .Site.Params.talkyardScriptUrl | default "https://cdn.talkyard.net/-/talkyard-comments.min.js" }}"></script>
+<!-- You can specify a per page discussion id on the next line, if your URLs might change. -->
+<div class="talkyard-comments" data-discussion-id="{{ .Params.discussionId }}" style="margin-top: 45px;">
+<noscript>Please enable Javascript to view comments.</noscript>
+<p style="margin-top: 25px; opacity: 0.9">Comments powered by
+<a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div>
+
+{{ end }}

@@ -1,0 +1,37 @@
+# Redirect default Netlify subdomain to primary domain
+http://wp-static-site-generator-documentation.netlify.com/* http://docs.wp2static.com/:splat 301!
+
+/ https://wp2static.com/docs/
+/fr/ https://wp2static.com/docs/
+/en/ https://wp2static.com/docs/
+/en/basics/ https://wp2static.com/docs/basics/
+/en/basics/what-is-static/ https://wp2static.com/docs/basics/what-is-static/
+/en/deploying/ https://wp2static.com/docs/deploying/
+/en/deploying/deployment-options/amazon-s3/ https://wp2static.com/docs/deploying/amazon-s3/
+/en/deploying/deployment-options/bunncdn/ https://wp2static.com/docs/deploying/bunnycdn/
+/en/deploying/deployment-options/ftp/ https://wp2static.com/docs/deploying/ftp/
+/en/deploying/deployment-options/github-pages/ https://wp2static.com/docs/deploying/github-pages/
+/en/deploying/deployment-options/netlify/ https://wp2static.com/docs/deploying/netlify/
+/en/developer-documentation/ https://wp2static.com/docs/developers/
+/en/developer-documentation/execution_flow/ https://wp2static.com/docs/developers/
+/en/getting-started/ https://wp2static.com/docs/getting-started/
+/en/getting-started/installation/ https://wp2static.com/docs/getting-started/installation/
+/en/getting-started/requirements/ https://wp2static.com/docs/getting-started/system-requirements/
+/en/getting-started/static-site-optimizations/ https://wp2static.com/docs/basics/static-site-optimizations/
+/en/getting-started/static-site-optimizations/contact-forms/ https://wp2static.com/docs/basics/contact-forms-for-static-sites/
+/en/getting-started/static-site-optimizations/pageload-speed/  https://wp2static.com/docs/basics/pageload-speed//
+/en/getting-started/static-site-optimizations/search-engines/ https://wp2static.com/docs/basics/search-options-for-static-sites/
+/en/getting-started/test-deploy/ https://wp2static.com/docs/getting-started/doing-a-test-export/
+/en/more_resources/ https://wp2static.com/docs/more_resources/
+/en/troubleshooting/ https://wp2static.com/docs/troubleshooting/
+/en/troubleshooting/activation/ https://wp2static.com/docs/troubleshooting/
+/en/troubleshooting/downloading/ https://wp2static.com/docs/troubleshooting/downloading/
+/en/troubleshooting/installation/ https://wp2static.com/docs/troubleshooting/installation/
+/en/troubleshooting/opting-in/ https://wp2static.com/docs/troubleshooting/
+/en/troubleshooting/save-settings/ https://wp2static.com/docs/troubleshooting/save-settings/
+/en/troubleshooting/start-export/ https://wp2static.com/docs/troubleshooting/start-export/
+/en/troubleshooting/start-export/check-site/ https://wp2static.com/docs/troubleshooting/check-site/
+/en/troubleshooting/updating/ https://wp2static.com/docs/troubleshooting/updating/
+/en/troubleshooting/view-settings/ https://wp2static.com/docs/troubleshooting/view-settings/
+/en/troubleshooting/view-settings/choose-deployment-option/ https://wp2static.com/docs/troubleshooting/
+/en/troubleshooting/view-settings/choose-deployment-option/ftp/ https://wp2static.com/docs/troubleshooting/ftp/

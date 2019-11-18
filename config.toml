@@ -1,0 +1,30 @@
+baseURL = "https://docs.wp2static.com/"
+title = "WP Static Site Generator"
+theme = "learn"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir= true
+
+[params]
+  editURL = "https://github.com/leonstafford/wp-static-site-generator-documentation/edit/master/content/"
+  description = "Documentation for WP Static Site Generator"
+  author = "Leon Stafford"
+  showVisitedLinks = true
+  disableBreadcrumb = false
+  disableNextPrev = false
+  talkyardServerUrl = "https://wp2static.talkyard.net"
+
+[outputs]
+  home = [ "HTML", "RSS", "JSON"]
+
+
+[Languages]
+[Languages.en]
+title = "Documentation for WP Static Site Generator"
+weight = 1
+languageName = "English"
+
+[Languages.fr]
+title = "Documentation du WP Static Site Generator"
+weight = 2
+languageName = "Français"
