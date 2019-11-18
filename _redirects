@@ -1,6 +1,3 @@
-# Redirect default Netlify subdomain to primary domain
-http://wp-static-site-generator-documentation.netlify.com/* http://docs.wp2static.com/:splat 301!
-
 / https://wp2static.com/docs/
 /fr/ https://wp2static.com/docs/
 /en/ https://wp2static.com/docs/
@@ -35,3 +32,7 @@ http://wp-static-site-generator-documentation.netlify.com/* http://docs.wp2stati
 /en/troubleshooting/view-settings/ https://wp2static.com/docs/troubleshooting/view-settings/
 /en/troubleshooting/view-settings/choose-deployment-option/ https://wp2static.com/docs/troubleshooting/
 /en/troubleshooting/view-settings/choose-deployment-option/ftp/ https://wp2static.com/docs/troubleshooting/ftp/
+
+# Redirect default Netlify subdomain to primary domain
+http://wp-static-site-generator-documentation.netlify.com/* http://docs.wp2static.com/:splat 301!
+
